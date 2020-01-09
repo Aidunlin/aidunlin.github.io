@@ -1,3 +1,5 @@
+<link rel="shortcut icon" href="./favicon.ico">
+
 I am Aidan Linerud (aka Aidunlin).
 
 I'm part of [Team Mean Machine](https://team2471.org/), an FRC robotics team.
