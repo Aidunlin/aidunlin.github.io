@@ -1,7 +1,13 @@
 I am Aidan Linerud (aka Aidunlin).
 
-Here's some things:
-* [MeanScout](https://github.com/Aidunlin/MeanScout) - A scouting app for BunnyBots 2019
-* [MeanScoutPWA](https://aidunlin.codes/MeanScoutPWA) - A progressive web app for FRC scouting
+I'm part of [Team Mean Machine](https://team2471.org/), an FRC robotics team.
 
-You can view the rest on my [GitHub](https://github.com/Aidunlin).
+I'm currently in high school, and I can't wait to get out next year.
+
+In terms of tech, I enjoy:
+1. Web design
+2. Video games
+3. Building/troubleshooting computers
+4. Other forms of computer-y stuff
+
+You can view my projects on my [GitHub](https://github.com/Aidunlin).
