@@ -12,4 +12,9 @@ In terms of tech, I enjoy:
 3. Building/troubleshooting computers
 4. Other forms of computer-y stuff
 
+My main project right now is an FRC scouting web app, [MeanScout](https://aidunlin.codes/MeanScout).
+I decided that making a single web app is much easier than making native apps for every platform.
+And, with the power of [progressive web apps](https://en.wikipedia.org/wiki/Progressive_web_application),
+it can run offline as well. Pretty cool stuff.
+
 You can view my projects on my [GitHub](https://github.com/Aidunlin).
