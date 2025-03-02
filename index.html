@@ -14,10 +14,7 @@
 	<header>
 		<div>
 			<h1>Aidan Linerud</h1>
-			<p>
-				Passionate web developer. Seeking opportunities to improve people's
-				lives, bit by bit.
-			</p>
+			<p>Passionate web developer. Seeking opportunities to improve people's lives, bit by bit.</p>
 			<p>
 				<a href="https://github.com/Aidunlin">GitHub</a>
 				|
@@ -29,19 +26,19 @@
 
 	<section id="experience">
 		<h2>Work Experience</h2>
-		<p>
-			I got my first webdev job as I was graduating from college. Really good
-			timing!
-		</p>
+		<p>I got my first webdev job as I was graduating from college. Really good timing!</p>
 
 		<details open>
 			<summary>
 				<strong>Contractor, Kintsugi Systems, since June 2024</strong>
 			</summary>
-			<p>
-				I am working on a scheduling system powered by SvelteKit and C# /
-				Entity Framework.
-			</p>
+			<p>I am working on a system for managing concrete mixer trucks, employees, shifts, and notifications.</p>
+			<ul>
+				<li>Improved client experience regarding messages/calls between system & employees</li>
+				<li>Improved employee experience regarding phone system & shift updates</li>
+				<li>Worked on syncing data between old on-premise DB and new cloud DB</li>
+				<li>Tech: C#, Entity Framework, Postgres, Twilio, gRPC, Svelte</li>
+			</ul>
 		</details>
 
 		<details>
@@ -51,10 +48,7 @@
 
 		<details>
 			<summary>Volunteer, 1 month, Camas Public Library, 2018</summary>
-			<p>
-				I signed people up for the Summer Reading Program, logged hours, and
-				issued prizes.
-			</p>
+			<p>I signed people up for the Summer Reading Program, logged hours, and issued prizes.</p>
 		</details>
 	</section>
 
@@ -62,56 +56,35 @@
 		<h2>FRC Team 2471 - Mean Machine</h2>
 		<p>
 			I've been in
-			<a href="https://www.firstinspires.org/">FIRST Robotics</a> since
-			<abbr title="FIRST Lego League">FLL</abbr> back in middle school. It's
-			safe to say it's been an important part of my life. Most of my interest
-			in web development was actually formed through robotics, especially as a
-			member of <a href="https://team2471.org/">Team Mean Machine</a>.
+			<a href="https://www.firstinspires.org/">FIRST Robotics</a>
+			for almost 10 years; it's been an important part of my life. Most of my interest in web development was formed
+			through robotics, especially as a member of
+			<a href="https://team2471.org/">Team Mean Machine</a>.
 		</p>
 
 		<details open>
-			<summary><strong>Alumni, 3 years, since 2021</strong></summary>
+			<summary><strong>Alumni & Mentor, 4 years, since 2021</strong></summary>
+			<p>I am introducing student members to web development concepts through engaging projects.</p>
+			<h3>MeanScout: Highly configurable peer-to-peer FRC scouting web app</h3>
 			<p>
-				I work with students to strengthen their web-dev skills through
-				important and engaging projects.
-			</p>
-			<h3>Project management/tracking app</h3>
-			<p>We are brainstorming a system that does a few things at once:</p>
-			<ul>
-				<li>
-					Improve communication between our two buildings: the shop and the
-					STEMnasium
-				</li>
-				<li>Track projects - who is working on what, and where</li>
-				<li>Track time spent</li>
-			</ul>
-			<p>
-				Most importantly, this will be a very interesting project for newer
-				students to jump on board with.
-			</p>
-			<p>
-				In the meantime, we are using tools like Jira and GitHub Projects.
-			</p>
-			<h3>MeanScout: Robot performance data collection</h3>
-			<p>
-				We are maintaining the web app we use to scout other teams during
-				competition. Recent improvements include:
+				We use
+				<a href="https://github.com/TeamMeanMachine/MeanScout">MeanScout</a>
+				to scout other teams during competitions; recording, analyzing, and visualizing data in an all-in-one app.
+				Recent improvements include:
 			</p>
 			<ul>
+				<li>Created co-op minigame that encourages scouts to analyze teams and strategize together</li>
+				<li>Added interactive charts and visuals</li>
 				<li>
-					Sending data between devices using the Web Share API, as well as QR
-					codes
-				</li>
-				<li>
-					Creating weighted pick lists to rank teams on specific sets of data
-				</li>
-				<li>
-					Fetching and storing team/match schedules from
-					<a href="https://www.thebluealliance.com/about">The Blue Alliance</a>
+					Incorporated QR codes and
+					<a href="https://en.wikipedia.org/wiki/Fountain_code">fountain codes</a>
+					to easily transfer any amount of data between devices without internet
 				</li>
 			</ul>
 			<p class="project">
-				<img loading="lazy" src="assets/meanscout-pick-lists.png" alt="MeanScout pick lists" />
+				<img src="assets/meanscout/overview.png" alt="MeanScout overview page" />
+				<img src="assets/meanscout/picklist.png" alt="MeanScout picklist" />
+				<img src="assets/meanscout/entry.png" alt="MeanScout entry" />
 			</p>
 		</details>
 
@@ -125,45 +98,45 @@
 	<section id="education">
 		<h2>Education</h2>
 		<p>
-			Not listed here are the endless amount of hours spent searching Google
-			and StackOverflow, and
-			<abbr title="reading the ----ing manual">RTFM</abbr>.
+			Not listed here are the endless hours spent googling, searching StackOverflow, and
+			<abbr title="Reading The Front-end Manual... What, you thought there was gonna be a different word there?">
+				RTFM
+			</abbr>.
 		</p>
 
 		<details open>
-			<summary>
-				Web Development AAT Degree, Clark College, 2022 - 2024
-			</summary>
+			<summary>Web Development AAT Degree, Clark College, 2022 - 2024</summary>
 			<h3>Projects</h3>
 			<p class="project">
 				Student Record Manager - PHP, MySQL, CRUD, Bootstrap
-				<img loading="lazy" src="assets/srm.png" alt="Student Record Manager" />
+				<img loading="lazy" src="assets/education/srm.png" alt="Student Record Manager" />
 				I later recreated this project in Go with
 				<a href="https://templ.guide/">templ</a>.
 			</p>
 			<p class="project">
-				JSludge - PHP, MySQL, <a href="https://picocss.com/">PicoCSS</a>
-				<img loading="lazy" src="assets/jsludge.png" alt="JSludge blog" />
+				JSludge - PHP, MySQL,
+				<a href="https://picocss.com/">PicoCSS</a>
+				<img loading="lazy" src="assets/education/jsludge.png" alt="JSludge blog" />
 			</p>
 			<p class="project">
 				<a href="https://www.friendsofthewhitesalmon.org/">Friends of the White Salmon River</a>
 				redesign - WordPress, Figma (group project)
-				<img loading="lazy" src="assets/fotws.png" alt="Friends of the White Salmon River redesign" />
+				<img loading="lazy" src="assets/education/fotws.png" alt="Friends of the White Salmon River redesign" />
 			</p>
 			<p class="project">
 				<a href="http://www.washougalfamilydental.com/">Washougal Family Dental</a>
 				front page redesign - HTML, CSS, Bootstrap
-				<img loading="lazy" src="assets/wfd.png" alt="Washougal Family Dental front page redesign" />
+				<img loading="lazy" src="assets/education/wfd.png" alt="Washougal Family Dental front page redesign" />
 			</p>
 			<p class="project">
-				<a href="https://www.nytimes.com/">New York Times</a> Feed App - JS,
-				NY Times API, Bootstrap
-				<img loading="lazy" src="assets/nyt-app.png" alt="NYT Feed App" />
+				<a href="https://www.nytimes.com/">New York Times</a>
+				Feed App - JS, NY Times API, Bootstrap
+				<img loading="lazy" src="assets/education/nyt-app.png" alt="NYT Feed App" />
 			</p>
 			<p class="project">
 				Weather App - JS,
 				<a href="https://openweathermap.org/">OpenWeather API</a>
-				<img loading="lazy" src="assets/weather-app.png" alt="Weather App" />
+				<img loading="lazy" src="assets/education/weather-app.png" alt="Weather App" />
 			</p>
 		</details>
 
@@ -175,7 +148,7 @@
 	</section>
 
 	<footer>
-		<p>&copy; 2024 Aidan Linerud</p>
+		<p>&copy; 2025 Aidan Linerud</p>
 		<p>
 			<a href="https://github.com/Aidunlin">GitHub</a>
 			|
