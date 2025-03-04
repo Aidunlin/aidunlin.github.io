@@ -93,6 +93,18 @@ summary {
 	cursor: pointer;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5em;
+}
+
+td:first-of-type {
+	text-align: center;
+}
+
 #experience :is(details[open] summary, summary:hover, summary:focus) {
 	background-color: hsla(240, 100%, 50%, 0.075);
 }
