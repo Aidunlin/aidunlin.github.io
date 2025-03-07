@@ -90,7 +90,7 @@ summary {
 	border-radius: 0.5rem;
 	padding: 1rem;
 	margin: -1rem;
-	cursor: pointer;
+	cursor: default;
 }
 
 table {
@@ -105,27 +105,27 @@ td:first-of-type {
 	text-align: center;
 }
 
-#experience :is(details[open] summary, summary:hover, summary:focus) {
+.experience details[open] summary {
 	background-color: hsla(240, 100%, 50%, 0.075);
 }
 
-#experience h2 {
+.experience :is(h1, h2) {
 	color:  hsl(240, 30%, 30%);
 }
 
-#robotics :is(details[open] summary, summary:hover, summary:focus) {
+.robotics details[open] summary {
 	background-color: hsla(0, 100%, 50%, 0.075);
 }
 
-#robotics h2 {
+.robotics :is(h1, h2) {
 	color:  hsl(0, 30%, 30%);
 }
 
-#education :is(details[open] summary, summary:hover, summary:focus) {
+.education details[open] summary {
 	background-color: hsla(120, 100%, 50%, 0.075);
 }
 
-#education h2 {
+.education :is(h1, h2) {
 	color:  hsl(120, 30%, 30%);
 }
 
